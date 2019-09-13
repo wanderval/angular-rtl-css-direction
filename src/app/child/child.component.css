@@ -1,0 +1,11 @@
+.text {
+  background: red;
+  width: 200px;
+  position: absolute;
+  right: 25px;
+}
+
+html[dir=rtl] .text {
+  right: auto;
+  left: 25px;
+}
